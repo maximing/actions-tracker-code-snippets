@@ -1,0 +1,60 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_programId",
+        "type": "uint256"
+      },
+      {
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "name": "_description",
+        "type": "string"
+      }
+    ],
+    "name": "registerNewProgram",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_programId",
+        "type": "uint256"
+      },
+      {
+        "name": "_userId",
+        "type": "uint32"
+      },
+      {
+        "name": "_taskId",
+        "type": "uint32"
+      },
+      {
+        "name": "_events",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "trackAction",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
