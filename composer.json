@@ -1,0 +1,15 @@
+{
+    "name": "maxim/actions-tracker-code-snippets",
+    "description": "php code snippet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Ignatov",
+            "email": "error25@mail.ru"
+        }
+    ],
+    "require": {
+        "sc0vu/web3.php": "dev-master",
+        "kornrunner/ethereum-offline-raw-tx": "^0.2.2"
+    }
+}
