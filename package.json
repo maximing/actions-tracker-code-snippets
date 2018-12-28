@@ -1,0 +1,24 @@
+{
+  "name": "actions-tracker-code-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximing/actions-tracker-code-snippets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximing/actions-tracker-code-snippets/issues"
+  },
+  "homepage": "https://github.com/maximing/actions-tracker-code-snippets#readme",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "web3": "^1.0.0-beta.37",
+    "web3-utils": "^1.0.0-beta.37"
+  }
+}
