@@ -24,8 +24,8 @@ export default class ActionTracker {
         this.events = events
         this.walletAddress = walletAddress
         this.privateKey = privateKey
-        this.networkProvider = ''
-        this.contractAddress = ''
+        this.networkProvider = 'https://rinkeby.infura.io'
+        this.contractAddress = '0x30c6424a23ea4a5573a49c7c09c10e94b6e9ef3b'
         this.gwei = 20
         this.gas = 200000
         this.web3 = new Web3js(new Web3js.providers.HttpProvider(this.networkProvider))
@@ -65,7 +65,11 @@ export default class ActionTracker {
 
         let events = []
         for (let i = 0; i < this.events.events.length; i++) {
-            events.push(JSON.stringify(this.events.events[i]))
+            events.push(
+                Web3Utils.toHex(
+                    JSON.stringify(this.events.events[i])
+                )
+            )
         }
 
         return {
