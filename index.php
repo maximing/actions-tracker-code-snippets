@@ -15,7 +15,7 @@ $actionTracker = new ActionTracker(
     $taskId,
     $userId,
     [
-        ['name' => 'click']
+        ['nm' => 'click']
     ],
     $walletAddress,
     $privateKey
@@ -27,8 +27,8 @@ $actionTracker->trackAction();
 // purchase event track
 $actionTracker->setEvents([
     [
-        'name' => 'purchase',
-        'amount' => 1000
+        'nm' => 'purchase',
+        'am' => 1000
     ]
 ]);
 
