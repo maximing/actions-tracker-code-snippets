@@ -1,6 +1,9 @@
 <?php
 
-$companyId = 123;
+require_once 'vendor/autoload.php';
+require_once 'ActionTracker.php';
+
+$companyId = 10;
 $taskId = 456;
 $userId = 789;
 $walletAddress = '0x45bff18af1e5eb4420913d9aa52aee78178e6345';
